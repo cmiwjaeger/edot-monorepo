@@ -1,6 +1,6 @@
-[submodule "service/product-service"]
-	path = service/product-service
-	url = git@github.com:cmiwjaeger/edot-product-service.git
 [submodule "services/product-service"]
 	path = services/product-service
-	url = git@github.com:cmiwjaeger/edot-product-service.git
+	url = git@github.com:cmiwjaeger/edot-user-service.git
+[submodule "services/user-service"]
+	path = services/user-service
+	url = git@github.com:cmiwjaeger/edot-user-service.git
