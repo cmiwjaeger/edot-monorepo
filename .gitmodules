@@ -7,3 +7,6 @@
 [submodule "services/order-service"]
 	path = services/order-service
 	url = git@github.com:cmiwjaeger/edot-order-service.git
+[submodule "services/shop-service"]
+	path = services/shop-service
+	url = git@github.com:cmiwjaeger/edot-shop-service.git
