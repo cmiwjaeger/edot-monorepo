@@ -10,3 +10,6 @@
 [submodule "services/shop-service"]
 	path = services/shop-service
 	url = git@github.com:cmiwjaeger/edot-shop-service.git
+[submodule "services/warehouse-service"]
+	path = services/warehouse-service
+	url = git@github.com:cmiwjaeger/edot-warehouse-service.git
