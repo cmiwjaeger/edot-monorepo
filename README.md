@@ -1,6 +1,6 @@
-# edot-monorepo
+# eDot Microservices Monorepo Project
 
-eDot Microservices Monorepo Project
+![Architecture Overview](./architecture-overview.png)
 
 The project uses a monorepo structure with Git submodules, which simplifies both development and deployment processes. With a single Docker Compose file, the entire project, including the API Gateway, services, databases, Kafka, and more, can be deployed together. Additionally, each component can still be run or developed separately if needed.
 

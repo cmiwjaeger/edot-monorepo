@@ -203,6 +203,19 @@ services:
     networks:
       - kong-net
 
+  edot-shop-db:
+    image: postgres:14
+    container_name: edot-shop-db
+    environment:
+      POSTGRES_USER: myuser
+      POSTGRES_PASSWORD: mypassword
+      POSTGRES_DB: edot_shop_db
+    ports:
+      - "5437:5432"
+    volumes:
+      - edot-shop-db-data:/var/lib/postgresql/data
+    networks:
+      - kong-net
 networks:
   kong-net:
 
@@ -212,3 +225,4 @@ volumes:
   edot-product-db-data:
   edot-warehouse-db-data:
   edot-order-db-data:
+  edot-shop-db-data:
