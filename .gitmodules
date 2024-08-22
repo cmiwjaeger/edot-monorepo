@@ -1,15 +1,15 @@
 [submodule "services/product-service"]
 	path = services/product-service
-	url = git@github.com:cmiwjaeger/edot-product-service.git/master
+	url = git@github.com:cmiwjaeger/edot-product-service.git
 [submodule "services/user-service"]
 	path = services/user-service
-	url = git@github.com:cmiwjaeger/edot-user-service.git/master
+	url = git@github.com:cmiwjaeger/edot-user-service.git
 [submodule "services/order-service"]
 	path = services/order-service
-	url = git@github.com:cmiwjaeger/edot-order-service.git/master
+	url = git@github.com:cmiwjaeger/edot-order-service.git
 [submodule "services/shop-service"]
 	path = services/shop-service
-	url = git@github.com:cmiwjaeger/edot-shop-service.git/master
+	url = git@github.com:cmiwjaeger/edot-shop-service.git
 [submodule "services/warehouse-service"]
 	path = services/warehouse-service
-	url = git@github.com:cmiwjaeger/edot-warehouse-service.git/master
+	url = git@github.com:cmiwjaeger/edot-warehouse-service.git
