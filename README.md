@@ -10,6 +10,8 @@ Each service follows the principles of clean architecture, where every service h
 ## Architecture Overview
 ![Architecture Overview](./architecture-overview.png)
 
+
+### Clone Project
 ```shell
 git clone git@github.com:cmiwjaeger/edot-monorepo.git
 ```
@@ -17,10 +19,12 @@ git clone git@github.com:cmiwjaeger/edot-monorepo.git
 cd edot-monorepo
 ```
 
+### Pull all submodules
 ```shell
 git submodule update --init --recursive
 ```
 
+### Run docker command
 ```shell
 docker-compose up
 ```
