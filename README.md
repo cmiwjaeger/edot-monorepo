@@ -13,16 +13,13 @@ Each service follows the principles of clean architecture, where every service h
 
 ### Clone Project
 ```shell
-git clone git@github.com:cmiwjaeger/edot-monorepo.git
+git clone --recurse-submodules git@github.com:cmiwjaeger/edot-monorepo.git
 ```
+
 ```shell
 cd edot-monorepo
 ```
 
-### Pull all submodules
-```shell
-git submodule update --init --recursive
-```
 
 ### Run docker command
 ```shell
