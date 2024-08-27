@@ -8,6 +8,7 @@ This project uses the concept of Event-Driven Architecture, where each service o
 Each service follows the principles of clean architecture, where every service has its own database tailored to the specific data requirements of its use cases.
 
 ## Architecture Overview
+https://app.diagrams.net/#G14_NDUPMIf6WSvbuLDUTuw6dN-Yi4i070#%7B%22pageId%22%3A%22QfAWo1oRbt7JcToQlIR7%22%7D
 ![Architecture Overview](./architecture-overview.png)
 
 
